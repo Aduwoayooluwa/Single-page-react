@@ -1,0 +1,67 @@
+.cover-images {
+    background-image: url("C:/Users/programmer/Desktop/interview-1/src/images/bus-cover3.jpg");
+    height: 57vh;
+}
+
+.button-cover {
+    width: 15vh;
+    height: 7vh;
+    
+}
+
+.cover-area {
+    transform: translateY(30vh);
+}
+.cover-images h2 {
+    margin-bottom: 30px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 38px;
+}
+
+.cover-images h3 {
+    color: white;
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+/* .cart {
+    width: 80%;
+    align-items: center;
+    text-align: center;
+} */
+.f-product {
+    padding-top: 50px;
+}
+.product-cart  {
+    text-align: justify;
+    width: 40%;
+    display: inline-block;
+    margin: 30px;
+    padding: 20px;
+}
+.product-cart li {
+    list-style: none;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.product-cart p {
+    text-align: justify;
+    color: black;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.05em;
+}
+.product-cart a {
+    text-decoration: none;
+    color: black;
+
+}
+.product-cart h2 {
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background: darkgray;   
+}

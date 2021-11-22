@@ -1,0 +1,47 @@
+.Nav {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    list-style: none;
+    background: rgb(34, 34, 189);
+    position: relative;
+}
+
+
+.Nav a {
+    color: white;
+    text-decoration: none;
+}
+.Menu-Nav li {
+    display: inline-flex;
+    font-size: 17px
+
+}
+
+input[type="search"] {
+    width: 30%;
+    height: 6vh;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(220, 218, 255);
+    text-align: center;
+}
+
+input[type="search"]::placeholder {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
+
+button {
+    width: 12vh;
+    height: 5vh;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    background:  rgb(220, 218, 255);
+    font-size: 15px;
+    font-weight: 500;
+}

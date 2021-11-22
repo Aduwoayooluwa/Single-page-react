@@ -1,0 +1,45 @@
+.footer {
+    background: rgb(114, 114, 114);
+    height: 60vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+
+}
+
+.footer-ground {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 30%;
+    align-items: center;
+    text-align: center;
+    margin: 30px 0;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid white;
+    padding: 20px 0;
+}
+
+.footer-ground li {
+    list-style: none;
+    line-height: 1.8;
+    
+}
+.footer-ground h2 {
+    font-size : 16px
+}
+
+.footer-ground a {
+    color: white;
+    text-decoration: none;
+}
+
+.others-footer {
+    display: flex;
+}
+
+.others-footer input {
+    transform: translate(115%, 100%);
+}
+.others-footer p {
+    transform: translate(80%, 20vh);
+    color: aliceblue;
+}
